@@ -1,0 +1,13 @@
+[2021-03-11T09:32:02.927] [DEBUG] cheese - Url {
+  protocol: 'http:',
+  slashes: true,
+  auth: null,
+  host: 'www',
+  port: null,
+  hostname: 'www',
+  hash: '#tag=3',
+  search: '?id=2',
+  query: 'id=2',
+  pathname: '/baidu.com:443/path/index.html',
+  path: '/baidu.com:443/path/index.html?id=2',
+  href: 'http://www/baidu.com:443/path/index.html?id=2#tag=3' }
