@@ -1,0 +1,17 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runjs":"node ./script1.js && node ./script2.js",
+    "build": "echo $npm_package_config_env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "config":{
+    "env":"production"
+  }
+}
