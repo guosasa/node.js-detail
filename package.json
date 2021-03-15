@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
-    "cheerio": "^1.0.0-rc.5"
+    "cheerio": "^1.0.0-rc.5",
+    "mime": "^2.5.2"
   },
   "devDependencies": {
     "http-proxy-middleware": "^1.0.6",
