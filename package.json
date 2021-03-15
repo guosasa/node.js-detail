@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5"
   },
   "devDependencies": {
     "http-proxy-middleware": "^1.0.6",
