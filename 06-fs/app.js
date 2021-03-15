@@ -67,7 +67,7 @@ const fsPromise = require('fs').promises
 } */
 
 // 遍历文件,文件内容读取
-function readFiles(file) {
+/* function readFiles(file) {
   fs.readdir(file,(err,data)=>{
     data.forEach((item,index)=>{
       console.log(item)
@@ -86,4 +86,8 @@ function readFiles(file) {
    
   })
 }
-readFiles('./lockNew')
+readFiles('./lockNew') */
+// 观察文件的变化 增删改
+fs.watch('./lockNew/log1.txt',(err)=>{
+  console.log('file change')
+})
