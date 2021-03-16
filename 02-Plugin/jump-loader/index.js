@@ -174,7 +174,7 @@ function getEntryType(entry, type) {
         } else {
             // 到这一步就是错误的入口了
             if (type === '3in1' || type === "2in1") {
-                // logIt(`leihuo-jump-loader: 错误的入口地址:${entry}，请检查client文件夹的结构!`)
+                // logIt(`错误的入口地址:${entry}，请检查client文件夹的结构!`)
                 // 默认是PC的
                 entryType = 'pc'
             } else {
@@ -183,7 +183,7 @@ function getEntryType(entry, type) {
                 if (res) {
                     entryType = res[0]
                 } else {
-                    logIt(`leihuo-jump-loader: 错误的入口地址:${entry}，请检查client文件夹的结构!`)
+                    logIt(`错误的入口地址:${entry}，请检查client文件夹的结构!`)
                 }
             }
         }
@@ -244,7 +244,7 @@ module.exports = function(content) {
     if (type === 'custom') {
         let customRules = conf.customRules
         if (!customRules) {
-            logIt(`leihuo-jump-loader: 缺失自定义的规则！请配置customRules！`)
+            logIt(`缺失自定义的规则！请配置customRules！`)
             return content;
         } else {
             let script = ''
